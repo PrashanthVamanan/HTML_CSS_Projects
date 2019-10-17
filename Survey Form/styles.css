@@ -1,0 +1,68 @@
+#title {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container {
+    background-color:  #a9d7d1;;
+    padding: 10px 0; /* 10px on top and bottom and 0 on left and right */
+}
+
+.form-container {
+    width: 100%;
+    max-width: 800px;
+    background: #d4cdcd;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 5px;
+    border: 5px solid goldenrod;
+}
+
+.form-container #description {
+    font-size: 20px;
+    text-align: center;
+}
+
+.mandatory {
+    color: red;
+}
+
+.input-fields {
+    max-width: 268px;
+    margin: auto;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 200px;
+}
+
+input[type="number"] {
+    margin-left: 10px;
+    width: 200px;
+}
+
+.right-tab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 48%;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.row {
+    max-width: 700px;
+}
+
+input[type="submit"] {
+    max-width: 500px;
+    text-align: center;
+    margin: 0 50%;
+}
