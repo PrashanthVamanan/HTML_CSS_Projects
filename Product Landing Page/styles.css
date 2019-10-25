@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body  {
+    background: #e8e3e3;
+    font-family: Arial;
+}
+
+header{
+    background: green;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type:none;
+    padding: 0; 
+}
+
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    display: block;
+    color: #fff;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+ul.logo {
+    min-width: 300px;
+}
+
+.logo {
+    margin: 0px auto;
+}
+
+nav ul.logo {
+    background: url(logo.png) no-repeat center;
+    background-size: 90%; 
+}
+
+@media screen and (min-width : 768px) {
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+}
+
+.center {
+    text-align: center;
+}
+
+.tagline-content {
+    max-height: 150px;
+    padding: 5px;
+    margin: 15px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="email"] {
+    width: 250px;
+    padding: 7px;
+    margin: 20px;
+}
+
+.button {
+    padding: 10px;
+    background: goldenrod;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.main-content, .pricing-content {
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.icon {
+    min-width: 100px;
+}
+
+.icon  i {
+    color: orange;
+    padding: 2px;
+}
+
+.description {
+    display: inline;
+    margin-left: 50px;
+}
+
+h3{
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    margin: 30px 0;
+    align-items: flex-start;
+}
+
+.video-content {
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.tenor {
+   width: 30%;
+   float: left;
+   border: 2px solid goldenrod;
+   min-height: 200px;
+   margin: 5px;
+   padding: 5px;
+}
+
+.heading {
+    background: darkgray;
+}
+
+.tenor h4 {
+    padding: 10px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+.desc {
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
+}
+
+.button-align {
+    margin: auto 85px;
+    padding: 15px;
+}
+
+.pricing-content:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.footer {
+    max-width: 870px;
+    margin: 0 auto;
+    background: #ccc;
+    height: 40px;
+}
+
+
+.footer-items {
+    list-style-type: none;
+}
+
+.footer-items a {
+    padding: 20px;
+    text-decoration: none;
+    color:black;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
