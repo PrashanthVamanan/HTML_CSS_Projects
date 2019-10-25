@@ -1,0 +1,102 @@
+ * {
+     margin: 0;
+     font-family: Verdana, Geneva, Tahoma, sans-serif
+ }
+
+ body {
+     background: #eee;
+ }
+
+ .wrapper {
+     width: 100%;
+     max-width: 960px;
+     margin: 0 auto;
+     background: #fff;
+ }
+
+ .header-container {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .other-details {
+     display: flex;
+ }
+
+ .header-container h2 {
+     margin: 10px;
+     padding: 10px;
+ }
+
+ .button-style {
+     max-width: 130px;
+     margin: 10px;
+     padding: 5px;
+     max-height: 40px;
+     background: darkblue;
+     border: none;
+     color: #fff;
+     font-weight: bold;
+     cursor: pointer;
+ }
+
+ .other-details p{
+    margin: 10px;
+    padding: 10px; 
+ }
+
+ .action-container {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .todo {
+     text-align: center;
+     background: #ccc;
+     min-width: 150px;
+     min-height: 20px;
+     border: none;
+     padding: 5px;
+     margin: 10px;
+ }
+
+ .action-header {
+     display: flex;
+ }
+
+ .items {
+     padding: 3px;
+     margin: 3px;
+     font-size: 12px;
+ }
+
+ .border {
+     border: 2px solid #ccc;
+ }
+
+ .action-content {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+
+ .todo-container {
+     min-width: 150px;
+     min-height: 200px;
+     background: #ccc;
+     padding: 5px;
+     margin: 10px;
+ }
+
+ .todo-item {
+     min-width: 150px;
+     min-height: 40px;
+     background: #fff;
+     margin-bottom: 5px;
+ }
+
+ .todo-item p {
+     font-size: 12px;
+     padding: 2px;
+ }
