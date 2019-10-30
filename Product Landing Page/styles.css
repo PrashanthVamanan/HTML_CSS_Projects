@@ -47,18 +47,6 @@ nav ul.logo {
     background-size: 90%; 
 }
 
-@media screen and (min-width : 768px) {
-    nav ul {
-        display: flex;
-        justify-content: flex-end;
-    }
-
-    .logo {
-        margin: 0;
-    }
-
-}
-
 .center {
     text-align: center;
 }
@@ -77,6 +65,11 @@ input[type="email"] {
     width: 250px;
     padding: 7px;
     margin: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
 }
 
 .button {
@@ -122,13 +115,17 @@ h3{
     padding: 10px;
 }
 
+.pricing-content {
+    display: flex;
+    justify-content: space-between;
+}
+
 .tenor {
    width: 30%;
-   float: left;
    border: 2px solid goldenrod;
    min-height: 200px;
-   margin: 5px;
-   padding: 5px;
+   margin: 15px;
+   padding: 10px;
 }
 
 .heading {
@@ -152,27 +149,24 @@ h3{
     padding: 2px;
 }
 
-.button-align {
-    margin: auto 85px;
-    padding: 15px;
-}
-
-.pricing-content:after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
 .footer {
     max-width: 870px;
     margin: 0 auto;
     background: #ccc;
-    height: 40px;
+    min-height: 40px;
 }
-
 
 .footer-items {
     list-style-type: none;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-items li {
+    margin-top: 10px;
 }
 
 .footer-items a {
@@ -181,9 +175,36 @@ h3{
     color:black;
 }
 
-.footer ul {
-    display: flex;
-    justify-content: flex-end;
+@media screen and (min-width : 768px) {
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .logo {
+        margin: 0;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .pricing-content {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tenor {
+        width: 50%;
+        padding: 30px;
+        margin: 30px;
+    }
+}
+
+.copyright {
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
 }
 
 
